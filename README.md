@@ -46,8 +46,8 @@ uber-rides-data-analysis/
 
 ### Prerequisite
 
-- Pytho 3.
-- Jupyter Notbook
+- Python 3.x
+- Jupyter Notebook
 
 ### Installation
 
