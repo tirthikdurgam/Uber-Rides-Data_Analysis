@@ -1,27 +1,28 @@
 # Uber Rides Data Analysis Using Machine Learning
-This project performs exploratory data analysis (EDA) and applies machine learning techniques to Uber ride data to uncover patterns and predict ride pricesIt encompasses data preprocessing, visualization, feature engineering, and model training to derive actionable insights and enhance decision-making
+
+This project performs exploratory data analysis (EDA) and applies machine learning techniques to Uber ride data to uncover patterns and predict ride prices. It encompasses data preprocessing, visualization, feature engineering, and model training to derive actionable insights and enhance decision-making.
 
 ---
 
 ## Features
 
- Comprehensive EDA to identify trends in ride categories, purposes, and time-based pattern.
- Data cleaning and preprocessing, including handling missing values and datetime conversion.
- Feature engineering to create new informative variable.
- Visualization using Matplotlib and Seaborn for insightful data representatio.
- Implementation of machine learning models to predict ride price.
+- Comprehensive EDA to identify trends in ride categories, purposes, and time-based patterns.
+- Data cleaning and preprocessing, including handling missing values and datetime conversion.
+- Feature engineering to create new informative variables.
+- Visualization using Matplotlib and Seaborn for insightful data representation.
+- Implementation of machine learning models to predict ride prices.
 
 ---
 
 ## Technologies Used
 
-- **Programming Language*: Pyton
+- **Programming Language**: Python
 - **Libraries**:
- - Panas
- - NuPy
- - Matplotib
- - Seabrn
- - Scikit-lern
+  - Pandas
+  - NumPy
+  - Matplotlib
+  - Seaborn
+  - Scikit-Learn
 
 ---
 
@@ -81,55 +82,54 @@ uber-rides-data-analysis/
 
 ## Data Overview
 
-- **Datast**: Uber ride data containing information such as start and end dates, categories, start and stop locations, mileage, and puroses.
-- **Soure**: [GeeksforGeeks Uber Rides Data Analysis](https://www.geeksforgeeks.org/uber-rides-data-analysis-using-pyhon/)
-- **Sie**: 1,156 rows × 7 clumns
+- **Dataset**: Uber ride data containing information such as start and end dates, categories, start and stop locations, mileage, and purposes.
+- **Size**: 1,156 rows × 7 columns
 
 ---
 
 ## Analysis Steps
 
-1. **Data Imprt**: Load the dataset using andas.
-2. **Data Cleaning**
-   - Handle missing values in the 'PURPOSE' olumn.
-   - Convert 'START_DATE' and 'END_DATE' to datetime ojects.
-   - Extract date and time compnents.
-   - Categorize time into 'Morning', 'Afternoon', 'Evening', and 'ight'.
-   - Remove duplicates and irrelevant etries.
-3. **Exploratory Data Analysis**
-   - Visualize distributions of ride categories and puposes.
-   - Analyze ride frequencies over different times of te day.
-   - Identify top start and stop loctions.
-4. **Feature Engineerng**: Create new features to enhance model perfomance.
-5. **Modeling**
-   - Split data into training and testin sets.
-   - Train machine learning models (e.g., Linear Regression, Decision rees).
-   - Evaluate model performance using appropriate mtrics.
+1. **Data Import**: Load the dataset using Pandas.
+2. **Data Cleaning**:
+   - Handle missing values in the 'PURPOSE' column.
+   - Convert 'START_DATE' and 'END_DATE' to datetime objects.
+   - Extract date and time components.
+   - Categorize time into 'Morning', 'Afternoon', 'Evening', and 'Night'.
+   - Remove duplicates and irrelevant entries.
+3. **Exploratory Data Analysis**:
+   - Visualize distributions of ride categories and purposes.
+   - Analyze ride frequencies over different times of the day.
+   - Identify top start and stop locations.
+4. **Feature Engineering**: Create new features to enhance model performance.
+5. **Modeling**:
+   - Split data into training and testing sets.
+   - Train machine learning models (e.g., Linear Regression, Decision Trees).
+   - Evaluate model performance using appropriate metrics.
 
 ---
 
-## Visualiztions
+## Visualizations
 
-The project includes various visualizations to illustrate findings, uch a:
+The project includes various visualizations to illustrate findings, such as:
 
-- Bar charts showing the distribution of ride catgores.
-- Pie charts depicting the purposes o ries.
-- Line graphs illustrating ride frequencies ovr tme.
-- Heatmaps representing correlations between vaiables.
+- Bar charts showing the distribution of ride categories.
+- Pie charts depicting the purposes of rides.
+- Line graphs illustrating ride frequencies over time.
+- Heatmaps representing correlations between variables.
 
 ---
 
-## Future Enhanceents
+## Future Enhancements
 
-- Integrate additional datasets for more comprehensive nalsis.
-- Implement advanced machine learning models for improved preictons.
-- Develop an interactive dashboard for real-time data exporaion.
-- Automate data preprocessing and analysis ppelines.
+- Integrate additional datasets for more comprehensive analysis.
+- Implement advanced machine learning models for improved predictions.
+- Develop an interactive dashboard for real-time data exploration.
+- Automate data preprocessing and analysis pipelines.
 
 ---
 
 ## License
 
-This project is licensed under the [MIT License]LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
